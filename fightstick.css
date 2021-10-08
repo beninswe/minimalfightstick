@@ -1,0 +1,78 @@
+.controller.fight-stick {
+    background: url(base2.png) center no-repeat;
+    background-position: 247px 55px;
+}
+
+.fight-stick .abxy {
+	left:290px;
+	width: 670px;
+}
+.fight-stick .bumpers {
+	right: 4px;
+	top: 163px;
+}
+.fight-stick .fstick {
+	top: 222px;
+	left: 505px;
+	filter: hue-rotate(250deg);
+}
+
+.fight-stick .arrows {
+	display: none;
+}
+
+.fight-stick .quadrant{
+	display: none;
+}
+.fight-stick .bumper.left{
+	display: none;
+}
+.fight-stick .trigger-button.left{
+	display: none;
+}
+.fight-stick .button.x {
+	background: #A77260;
+	top: 22px;
+	left: 205px;
+}
+
+.fight-stick .button.x.pressed {
+	background: #E9967A;
+	-webkit-filter: none;
+
+}
+
+.fight-stick .button.y {
+	background: #657E65;
+	right: 174px;
+	top: 51px;
+
+}
+
+.fight-stick .button.y.pressed {
+	background: #8FBC8F;
+	-webkit-filter: none;
+}
+
+.fight-stick .button.a {
+	background: #4D255F;
+	top: 87px;
+	left: 49px;
+}
+.fight-stick .button.a.pressed {
+	background: #9400D3;
+	-webkit-filter: none;
+}
+
+.fight-stick .button.b {
+	background: #7D2020;
+	display: none;
+}
+
+.fight-stick .button.b.pressed {
+	background: #FF0000;
+	-webkit-filter: none;
+}
+.fight-stick .trigger-button.right {
+	display: none;
+}
